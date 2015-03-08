@@ -1,4 +1,4 @@
-	<!-- Aeon MQ 5 Helix 6.1.0 / 6.1.4 -->
+	<!-- Aeon MQ 5 Helix 6.1.0 / 6.1.4 /6.1.7 -->
 
 <includes>
 	<!-- ######################################################################### Presets para aplicar ######################################################################### -->
@@ -2000,7 +2000,7 @@
 					<onclick>Skin.SetString($INFO[skin.string(custom_master)],livetvepg)</onclick>
 					<onclick>Skin.SetString($INFO[skin.string(custom_action)],ActivateWindow(tvguide))</onclick>
 					<include>DefaultReset</include>
-					<visible>Skin.HasSetting(submode)</visible>
+					<!-- <visible>Skin.HasSetting(submode)</visible> -->
 				</item>
 				<item>
 					<label>$LOCALIZE[31006]-$LOCALIZE[19163]</label><!-- TV ao vivo Estacoes de Radio --><!-- 6525 -->
