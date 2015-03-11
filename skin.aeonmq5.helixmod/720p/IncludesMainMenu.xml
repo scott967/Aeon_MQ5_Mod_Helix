@@ -1,4 +1,4 @@
-	<!-- Aeon MQ 5 Helix 6.1.0/6.1.5  -->
+	<!-- Aeon MQ 5 Helix 6.1.0/6.1.5/6.1.7  -->
 
 <includes>
 	<!-- ######################################################################### Menu Principal ######################################################################### -->
@@ -43,8 +43,8 @@
 		<focusposition>1</focusposition>
 		<itemlayout width="426" height="60">
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx> -->
 				<posy>2</posy>
 				<height>60</height>
 				<width>400</width>
@@ -56,8 +56,8 @@
 				<visible>StringCompare(skin.string(font),font1)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx> -->
 				<posy>1</posy>
 				<height>60</height>
 				<width>400</width>
@@ -69,8 +69,8 @@
 				<visible>StringCompare(skin.string(font),font2)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx> -->
 				<posy>2</posy>
 				<height>60</height>
 				<width>400</width>
@@ -82,8 +82,8 @@
 				<visible>StringCompare(skin.string(font),font3)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx> -->
 				<posy>1</posy>
 				<height>60</height>
 				<width>400</width>
@@ -95,8 +95,8 @@
 				<visible>StringCompare(skin.string(font),font4)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>5</posy>
 				<height>60</height>
 				<width>400</width>
@@ -108,8 +108,8 @@
 				<visible>StringCompare(skin.string(font),font5)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>0</posy>
 				<height>60</height>
 				<width>400</width>
@@ -121,8 +121,8 @@
 				<visible>StringCompare(skin.string(font),font6)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>5</posy>
 				<height>60</height>
 				<width>400</width>
@@ -134,8 +134,8 @@
 				<visible>StringCompare(skin.string(font),font7)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>-1</posy>
 				<height>60</height>
 				<width>400</width>
@@ -149,8 +149,8 @@
 		</itemlayout>
 		<focusedlayout width="426" height="60">
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>2</posy>
 				<height>60</height>
 				<width>400</width>
@@ -163,8 +163,8 @@
 				<visible>StringCompare(skin.string(font),font1)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>1</posy>
 				<height>60</height>
 				<width>400</width>
@@ -177,8 +177,8 @@
 				<visible>StringCompare(skin.string(font),font2)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>2</posy>
 				<height>60</height>
 				<width>400</width>
@@ -191,8 +191,8 @@
 				<visible>StringCompare(skin.string(font),font3)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>1</posy>
 				<height>60</height>
 				<width>400</width>
@@ -205,8 +205,8 @@
 				<visible>StringCompare(skin.string(font),font4)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>5</posy>
 				<height>60</height>
 				<width>400</width>
@@ -219,8 +219,8 @@
 				<visible>StringCompare(skin.string(font),font5)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>0</posy>
 				<height>60</height>
 				<width>400</width>
@@ -233,8 +233,8 @@
 				<visible>StringCompare(skin.string(font),font6)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>5</posy>
 				<height>60</height>
 				<width>400</width>
@@ -247,8 +247,8 @@
 				<visible>StringCompare(skin.string(font),font7)</visible>
 			</control>
 			<control type="label">
-				<left>0</left>
-				<posx>213</posx>
+				<left>13</left>
+				<!-- <posx>213</posx>  -->
 				<posy>-1</posy>
 				<height>60</height>
 				<width>400</width>
