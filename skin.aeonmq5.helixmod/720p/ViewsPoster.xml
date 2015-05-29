@@ -189,6 +189,7 @@
 				<control type="label">
 					<include>PosterLabel</include>
 					<label>$VAR[value_ground11_label]: [COLOR=FFFFFAF0]$VAR[value_ground11_value][/COLOR]</label>
+					<!-- <label>$VAR[value_poster]</label> -->
 				</control>
 				<control type="label">
 					<include>PosterLabel</include>
