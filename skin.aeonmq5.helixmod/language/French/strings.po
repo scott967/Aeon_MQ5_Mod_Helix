@@ -3751,6 +3751,10 @@ msgctxt "#31876"
 msgid "SEASON"
 msgstr "SAISON"
 
+msgctxt "#31878"
+msgid "SHELFCASE"
+msgstr "SHELFCASE"
+
 msgctxt "#31879"
 msgid "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
 msgstr "UTILISER UN PACK EXTERNE DE BOITIERS MEDIA (DÉFINI PAR L'UTILISATEUR)"
@@ -4214,6 +4218,10 @@ msgstr "TEMPS RESTANT"
 msgctxt "#31992"
 msgid "Local subtitle available"
 msgstr "Sous-titres disponibles en local"
+
+msgctxt "#31997"
+msgid "SEEKING"
+msgstr ""
 
 msgctxt "#31999"
 msgid ""
