@@ -1,4 +1,5 @@
-	<!-- Aeon MQ 5 Helix 6.1.0/6.1.1/6.1.4/6.1.5/6.1.9 -->
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- Aeon MQ 5 Helix 6.1.0/6.1.1/6.1.4/6.1.5/6.1.9 Shelfcase Mod -->
 
 <includes>
 	<include file="Defaults.xml"/>
