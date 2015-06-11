@@ -1,4 +1,4 @@
-	<!-- Aeon MQ 5 Helix 6.1.6 -->
+	<!-- Aeon MQ 5 Helix 6.1.6/6.1.9 -->
 
 <includes>
 	<!--##################################################################################   VISTA POSTER - ID 54   #############################################################################-->
@@ -189,7 +189,6 @@
 				<control type="label">
 					<include>PosterLabel</include>
 					<label>$VAR[value_ground11_label]: [COLOR=FFFFFAF0]$VAR[value_ground11_value][/COLOR]</label>
-					<!-- <label>$VAR[value_poster]</label> -->
 				</control>
 				<control type="label">
 					<include>PosterLabel</include>
