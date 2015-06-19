@@ -1,8 +1,9 @@
 [B][COLOR=FFFF8C00]BUILD 6.1.9 - RELEASE DATE 05/30/2015[/COLOR][/B]
 Added:  New video view "shelfcase"
-Fixed:  During video playback, SEEKING setting will only display during active Seek
-Fixed:  Additional Isengard GUI mods
 Fixed:  Genre icon issue in Panel View
+Improved:  Audio case is now available in Wall view mode
+Improved:  Support for script.games.rom.collection.browser
+Improved:  Export/Import skin settings now uses script.toolbox (required for install)
 
 [B][COLOR=FFFF8C00]BUILD 6.1.8 - RELEASE DATE 04/18/2015[/COLOR][/B]
 Added:  Live TV recordings is now available to be added to the main menu via customize main menu
