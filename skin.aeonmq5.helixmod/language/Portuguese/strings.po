@@ -3758,6 +3758,10 @@ msgctxt "#31877"
 msgid "EPG:CHANNEL"
 msgstr ""
 
+msgctxt "#31878"
+msgid "SHELFCASE"
+msgstr "SHELFCASE"
+
 msgctxt "#31879"
 msgid "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
 msgstr "USAR ESTOJOS DE PACOTE EXTERNO (DEFINIDO PELO USUÁRIO)"
@@ -3952,7 +3956,7 @@ msgid "BOX BACK"
 msgstr "FUNDO DA CAIXA"
 
 msgctxt "#31926"
-msgid "CARTDRIGE"
+msgid "CARTRIDGE"
 msgstr "CARTUCHO"
 
 msgctxt "#31927"
@@ -4236,6 +4240,10 @@ msgstr ""
 
 msgctxt "#31996"
 msgid "AVAILABLE[CR]GROUPS"
+msgstr ""
+
+msgctxt "#31997"
+msgid "SEEKING"
 msgstr ""
 
 msgctxt "#31999"

@@ -3755,6 +3755,10 @@ msgctxt "#31877"
 msgid "EPG:CHANNEL"
 msgstr ""
 
+msgctxt "#31878"
+msgid "SHELFCASE"
+msgstr "SHELFCASE"
+
 msgctxt "#31879"
 msgid "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
 msgstr "외부 미디어 케이스 패키지 사용 (사용자 정의)"
@@ -3949,7 +3953,7 @@ msgid "BOX BACK"
 msgstr "박스 뒤"
 
 msgctxt "#31926"
-msgid "CARTDRIGE"
+msgid "CARTRIDGE"
 msgstr "카트리지"
 
 msgctxt "#31927"
@@ -4233,6 +4237,10 @@ msgstr ""
 
 msgctxt "#31996"
 msgid "AVAILABLE[CR]GROUPS"
+msgstr ""
+
+msgctxt "#31997"
+msgid "SEEKING"
 msgstr ""
 
 msgctxt "#31999"

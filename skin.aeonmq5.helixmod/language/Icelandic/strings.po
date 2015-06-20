@@ -3754,6 +3754,10 @@ msgstr ""
 msgctxt "#31877"
 msgid "EPG:CHANNEL"
 msgstr ""
+msgctxt "#31878"
+msgid "SHELFCASE"
+msgstr "SHELFCASE"
+
 msgctxt "#31879"
 msgid "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
 msgstr ""
@@ -3948,7 +3952,7 @@ msgid "BOX BACK"
 msgstr "BOX AFTANVERÐU"
 
 msgctxt "#31926"
-msgid "CARTDRIGE"
+msgid "CARTRIDGE"
 msgstr "HYLKI"
 
 msgctxt "#31927"
@@ -4232,6 +4236,10 @@ msgstr ""
 
 msgctxt "#31996"
 msgid "AVAILABLE[CR]GROUPS"
+msgstr ""
+
+msgctxt "#31997"
+msgid "SEEKING"
 msgstr ""
 
 msgctxt "#31999"

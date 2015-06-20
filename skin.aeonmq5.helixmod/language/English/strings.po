@@ -3752,6 +3752,10 @@ msgctxt "#31877"
 msgid "EPG:CHANNEL"
 msgstr "EPG:CHANNEL"
 
+msgctxt "#31878"
+msgid "SHELFCASE"
+msgstr "SHELFCASE"
+
 msgctxt "#31879"
 msgid "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
 msgstr "USE EXTERNAL MEDIA CASES OF PACKAGE (USER DEFINED)"
@@ -3946,8 +3950,8 @@ msgid "BOX BACK"
 msgstr "BOX BACK"
 
 msgctxt "#31926"
-msgid "CARTDRIGE"
-msgstr "CARTDRIGE"
+msgid "CARTRIDGE"
+msgstr "CARTRIDGE"
 
 msgctxt "#31927"
 msgid "SCREENSHOT"
@@ -4228,6 +4232,11 @@ msgstr "DELETE GROUP"
 msgctxt "#31996"
 msgid "AVAILABLE[CR]GROUPS"
 msgstr "AVAILABLE[CR]GROUPS"
+
+msgctxt "#31997"
+msgid "SEEKING"
+msgstr "SEEKING"
+
 msgctxt "#31999"
 msgid ""
 "The Original Aeon Skin and its name are intelectual property of djh_. The "
