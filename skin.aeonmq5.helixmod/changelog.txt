@@ -1,3 +1,7 @@
+[B][COLOR=FFFF8C00]BUILD 6.1.10 - RELEASE DATE 07/15/2015[/COLOR][/B]
+Fixed:  DialogMediaFilter
+Fixed:  Shelfcase view did not wrap properly
+Added:  CodecInfo in FullScreenPVR now shows PVR status
 [B][COLOR=FFFF8C00]BUILD 6.1.9 - RELEASE DATE 05/30/2015[/COLOR][/B]
 Added:  New video view "shelfcase"
 Fixed:  Genre icon issue in Panel View
@@ -98,7 +102,7 @@ Added:  Timer series recording editing and delete (wmc.pvr feature)
 Improved:  English (US) translations
 Improved:  Concerts (music video) info displays
 Improved:  New default fonts with support for CJK characters
-Improved:  New font set optoins for large and huge fonts
+Improved:  New font set options for large and huge fonts
 
 [B][COLOR=FFFF8C00]BUILD 2.0.2 - RELEASE DATE 2/7/2014[/COLOR][/B]
 

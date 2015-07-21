@@ -1,4 +1,5 @@
-	<!-- Aeon MQ 5 Helix 6.1.0 -->
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- Aeon MQ 5 Helix 6.1.0/6.1.10 -->
 
 	<window>
 	<defaultcontrol always="true">5</defaultcontrol>
@@ -79,12 +80,13 @@
 	<control type="sliderex" id="13">
 	</control>
 	<control type="edit" id="12">
+			<texturefocus>settings_button_focus.png</texturefocus>
 	</control>
 	<control type="image">
 	<posx>140</posx>
 	<posy>600</posy>
 	<height>40</height>
-	<width>1280</width>
+				<width>1000</width>
 	<texture>black.png</texture>
 	<colordiffuse>90FFFFFF</colordiffuse>
 	</control>
