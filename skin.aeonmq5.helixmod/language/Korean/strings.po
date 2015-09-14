@@ -420,7 +420,7 @@ msgstr "CINEMA EX"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "TV 가이드"
+msgstr "NEXT AIRED 가이드"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1607,7 +1607,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "다음 에피소드"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "선택한 날의 TV 쇼"
 
@@ -2028,6 +2028,10 @@ msgstr "썸네일 테두리 없애기"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "스킨 초기화 단추 보기 (임시)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2584,6 +2588,10 @@ msgstr "비어있는 컬렉션!"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "옵션에서 콘텐트를 추가하세요"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!-- Aeon MQ 5 Helix 6.1.0/6.1.2/6.1.3/6.1.4/6.1.5/6.1.6/6.1.7/6.1.8/6.1.9/6.1.10 -->
+	<!-- Aeon MQ 5 Helix 6.1.0/6.1.2/6.1.3/6.1.4/6.1.5/6.1.6/6.1.7/6.1.8/6.1.9/6.1.10/6.1.12 -->
 
 <includes>
 	<!-- ################################################ Value/General ################################################ -->
 	<variable name="SkinVersion">
-		<value>6.1.10 Helix[COLOR=80FFFFFF] | [/COLOR]07/16/2015</value>
+		<value>6.1.12 Helix[COLOR=80FFFFFF] | [/COLOR]09/20/2015</value>
 	</variable>
 	<variable name="Sub_GoTo">
 		<value condition="StringCompare(Container(9000).ListItem.Property(subid),movies)">6001</value>
@@ -2091,7 +2091,8 @@
 		<value condition="Player.HasAudio">$INFO[MusicPlayer.Rating]</value>
 	</variable>
 	<variable name="value_playerduration">
-		<value condition="Player.HasMedia + !Player.Paused">$INFO[Player.Time]$INFO[Player.Duration, / ]</value>
+		<value condition="Player.HasVideo + !Player.Paused">$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, / ]</value>
+		<value condition="Player.HasAudio + !Player.Paused">$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</value>
 		<value condition="Player.HasMedia + Player.Paused">$LOCALIZE[31308]</value>
 	</variable>
 	<variable name="value_playeryear">
@@ -2140,10 +2141,11 @@
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(8) + Player.Forwarding">$VAR[value_seekforward]</value>
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(9) + !VideoPlayer.Content(LiveTV)">$LOCALIZE[31306]</value><!-- next -->
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(9) + VideoPlayer.Content(LiveTV)">+ $LOCALIZE[31763]</value><!-- + canal -->
-		<value condition="Control.HasFocus(600) + Container(600).HasFocus(10) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486]</value><!-- repeat -->
+		<value condition="Control.HasFocus(600) + Container(600).HasFocus(10) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486] $LOCALIZE[31711]</value><!-- repeat -->
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(10) + Playlist.IsRepeatOne">$LOCALIZE[487]</value><!-- repeat one -->
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(10) + Playlist.IsRepeat">$LOCALIZE[488]</value><!-- repeat all -->
-		<value condition="Control.HasFocus(600) + Container(600).HasFocus(11)">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Control.HasFocus(600) + Container(600).HasFocus(11) + Playlist.IsRandom">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Control.HasFocus(600) + Container(600).HasFocus(11) + !Playlist.IsRandom">$LOCALIZE[590] $LOCALIZE[591]</value><!-- not random -->
 		<value condition="Control.HasFocus(600) + Container(600).HasFocus(12)">$LOCALIZE[31907]</value><!-- fullscreen -->
 	</variable>
 	<variable name="value_playericon_repeat">
@@ -2157,6 +2159,8 @@
 	</variable>	
 	<variable name="value_videodisc">
 		<value condition="!IsEmpty(Player.Art(discart))">$INFO[Player.Art(discart)]</value>
+		<value condition="!IsEmpty(Player.Art(poster))">$INFO[Player.Art(poster)]</value>
+		<value condition="!IsEmpty(Player.Art(tvshow.poster))">$INFO[Player.Art(tvshow.poster)]</value>
 		<value condition="IsEmpty(Player.Art(discart)) + SubString(skin.string(discvideo),0)">cdart.png</value>
 		<value condition="IsEmpty(Player.Art(discart)) + SubString(skin.string(discvideo),1)">cdart_1.png</value>
 		<value condition="IsEmpty(Player.Art(discart)) + SubString(skin.string(discvideo),2)">cdart_2.png</value>
@@ -2403,13 +2407,13 @@
 		<value condition="Control.HasFocus(206)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31347]: [/COLOR]$INFO[Container(206).ListItem.Property(ShortTime)] - $INFO[Container(206).ListItem.Property(NextDate)] - [COLOR=$VAR[value_headercolor]]$INFO[Container(206).ListItem.Property(NextNumber)] - $INFO[Container(206).ListItem.Property(NextTitle)][/COLOR]</value>
 	</variable>
 	<variable name="value_nextairedmultilabel">
-		<value condition="Control.HasFocus(200)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(200).NumItems]</value>
-		<value condition="Control.HasFocus(201)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(201).NumItems]</value>
-		<value condition="Control.HasFocus(202)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(202).NumItems]</value>
-		<value condition="Control.HasFocus(203)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(203).NumItems]</value>
-		<value condition="Control.HasFocus(204)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(204).NumItems]</value>
-		<value condition="Control.HasFocus(205)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(205).NumItems]</value>
-		<value condition="Control.HasFocus(206)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31448]: [/COLOR]$INFO[Container(206).NumItems]</value>
+		<value condition="Control.HasFocus(200)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(200).NumItems]</value>
+		<value condition="Control.HasFocus(201)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(201).NumItems]</value>
+		<value condition="Control.HasFocus(202)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(202).NumItems]</value>
+		<value condition="Control.HasFocus(203)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(203).NumItems]</value>
+		<value condition="Control.HasFocus(204)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(204).NumItems]</value>
+		<value condition="Control.HasFocus(205)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(205).NumItems]</value>
+		<value condition="Control.HasFocus(206)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[31348]: [/COLOR]$INFO[Container(206).NumItems]</value>
 	</variable>
 	<variable name="value_nextairedstudio">
 		<value condition="Control.HasFocus(200)">$INFO[Container(200).ListItem.Property(Network)]</value>
@@ -3185,7 +3189,7 @@
 	<variable name="value_librarystatus">
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),movies)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[20342]: [/COLOR]$INFO[Window(0).Property(Movies.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[16101]: [/COLOR]$INFO[Window(0).Property(Movies.UnWatched)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),tvshows)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[20343]: [/COLOR]$INFO[Window(0).Property(TVShows.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[20360]:[/COLOR] $INFO[Window(0).Property(Episodes.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[16101]:[/COLOR] $INFO[Window(0).Property(Episodes.UnWatched)]</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(id),concerts)">[COLOR=$VAR[value_headercolor]][LOWERCASE]$LOCALIZE[31013][/LOWERCASE]: [/COLOR]$INFO[Window(0).Property(MusicVideos.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]] $LOCALIZE[16101]: [/COLOR]$INFO[Window(0).Property(MusicVideos.UnWatched)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(id),concerts)">[COLOR=$VAR[value_headercolor]][CAPITALIZE][LOWERCASE]$LOCALIZE[31013][/LOWERCASE][/CAPITALIZE]: [/COLOR]$INFO[Window(0).Property(MusicVideos.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]] $LOCALIZE[16101]: [/COLOR]$INFO[Window(0).Property(MusicVideos.UnWatched)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),music)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[133]:[/COLOR] $INFO[Window(0).Property(Music.ArtistsCount)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[132]:[/COLOR] $INFO[Window(0).Property(Music.AlbumsCount)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[182]:[/COLOR] $INFO[Window(0).Property(Music.SongsCount)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),vpl1) + !IsEmpty(Window(0).Property(PlaylistLastMovievpl1.1.Title))">$INFO[Window(0).Property(PlaylistLastMovievpl1.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[16101]: [/COLOR]$INFO[Window(0).Property(PlaylistLastMovievpl1.UnWatched)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),vpl1) + !IsEmpty(Window(0).Property(PlaylistLastEpisodevpl1.1.Title))">$INFO[Window(0).Property(PlaylistLastEpisodevpl1.Count)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[16101]: [/COLOR]$INFO[Window(0).Property(PlaylistLastEpisodevpl1.UnWatched)]</value>
@@ -3248,7 +3252,7 @@
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),apl18)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[132]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl18.Albums)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[182]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl18.Songs)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),apl19)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[132]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl19.Albums)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[182]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl19.Songs)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(id),apl20)">[COLOR=$VAR[value_headercolor]]$LOCALIZE[132]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl20.Albums)][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]]$LOCALIZE[182]:[/COLOR] $INFO[Window(0).Property(PlaylistLastMusicapl20.Songs)]</value>	
-		<value condition="StringCompare(Container(9000).ListItem.Property(id),favourites) + !IsEmpty(Window(0).Property(Favourite.1.Name))">[COLOR=$VAR[value_headercolor]][LOWERCASE]$LOCALIZE[31249][/LOWERCASE]: [/COLOR]$INFO[Container(510).NumItems][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]] $LOCALIZE[20161]:[/COLOR] $INFO[Window(0).Property(Favourite.Count)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(id),favourites) + !IsEmpty(Window(0).Property(Favourite.1.Name))">[COLOR=$VAR[value_headercolor]][CAPITALIZE][LOWERCASE]$LOCALIZE[31249][/LOWERCASE][/CAPITALIZE]: [/COLOR]$INFO[Container(510).NumItems][COLOR=50FFFAF0] | [/COLOR][COLOR=$VAR[value_headercolor]] $LOCALIZE[20161]:[/COLOR] $INFO[Window(0).Property(Favourite.Count)]</value>
 	</variable>
 
 	<variable name="value_multilabel">
@@ -3509,10 +3513,11 @@
 		<value condition="Container(100).HasFocus(8)">$LOCALIZE[31299]</value><!-- book -->
 		<value condition="Container(100).HasFocus(9)">$LOCALIZE[31300]</value><!-- subtitle -->
 		<value condition="Container(100).HasFocus(10)">$LOCALIZE[31035]</value><!-- playlist -->
-		<value condition="Container(100).HasFocus(11) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486]</value><!-- repeat -->
+		<value condition="Container(100).HasFocus(11) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486] $LOCALIZE[31711]</value><!-- repeat -->
 		<value condition="Container(100).HasFocus(11) + Playlist.IsRepeatOne">$LOCALIZE[487]</value><!-- repeat one -->
 		<value condition="Container(100).HasFocus(11) + Playlist.IsRepeat">$LOCALIZE[488]</value><!-- repeat all -->
-		<value condition="Container(100).HasFocus(12)">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Container(100).HasFocus(12) + Playlist.IsRandom">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Container(100).HasFocus(12) + !Playlist.IsRandom">$LOCALIZE[590] $LOCALIZE[591]</value><!-- not random -->
 		<value condition="Container(100).HasFocus(13)">$LOCALIZE[31754] +</value><!-- volumeup -->
 		<value condition="Container(100).HasFocus(14)">$LOCALIZE[31754] -</value><!-- volumedown -->
 		<value condition="Container(100).HasFocus(15)">$LOCALIZE[31755]</value><!-- mute -->
@@ -3546,10 +3551,11 @@
 		<value condition="Container(101).HasFocus(4)">$LOCALIZE[31375]</value><!-- general settings -->
 		<value condition="Container(101).HasFocus(9)">$LOCALIZE[31463]</value><!-- animation background -->
 		<value condition="Container(101).HasFocus(10)">$LOCALIZE[31035]</value><!-- playlist -->
-		<value condition="Container(101).HasFocus(11) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486]</value><!-- repeat -->
+		<value condition="Container(101).HasFocus(11) + ![Playlist.IsRepeat | Playlist.IsRepeatOne]">$LOCALIZE[486] $LOCALIZE[31711]</value><!-- repeat -->
 		<value condition="Container(101).HasFocus(11) + Playlist.IsRepeatOne">$LOCALIZE[487]</value><!-- repeat one -->
 		<value condition="Container(101).HasFocus(11) + Playlist.IsRepeat">$LOCALIZE[488]</value><!-- repeat all -->
-		<value condition="Container(101).HasFocus(12)">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Container(101).HasFocus(12) + Playlist.IsRandom">$LOCALIZE[590]</value><!-- random -->
+		<value condition="Container(101).HasFocus(12) + !Playlist.IsRandom">$LOCALIZE[590] $LOCALIZE[591]</value><!-- not random -->
 		<value condition="Container(101).HasFocus(13)">$LOCALIZE[31754] +</value><!-- volumeup -->
 		<value condition="Container(101).HasFocus(14)">$LOCALIZE[31754] -</value><!-- volumedown -->
 		<value condition="Container(101).HasFocus(15)">$LOCALIZE[31755]</value><!-- mute -->

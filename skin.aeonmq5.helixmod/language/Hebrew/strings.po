@@ -1608,7 +1608,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "הפרק הבא"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "סדרות ליום זה"
 
@@ -2029,6 +2029,10 @@ msgstr "הסתר גבולות מתמונות ממוזערות"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "הצג כפתור עבור אתחול מעטפת (זמני)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2585,6 +2589,10 @@ msgstr "אוסף ריק!"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "הוסף תוכן באפשרות"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

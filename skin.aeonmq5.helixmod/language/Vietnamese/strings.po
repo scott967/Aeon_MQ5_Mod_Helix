@@ -421,7 +421,7 @@ msgstr "CẢM GIÁC RẠP CHIẾU BÓNG"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "HƯỚNG DẪN TV"
+msgstr "HƯỚNG DẪN NEXT AIRED"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1608,7 +1608,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "Tập tiếp theo"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "Các Chương trình TV ngày này"
 
@@ -2029,6 +2029,10 @@ msgstr "ẨN CÁC ĐƯỜNG VIỀN CỦA HÌNH THU NHỎ"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "HIỂN THỊ NÚT CHO GIAO DIỆN ĐƯỢC THIẾT ĐẶT LẠI (TẠM THỜI) "
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2585,6 +2589,10 @@ msgstr "BỘ SƯU TẬP TRỐNG"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "THÊM NỘI DUNG TRONG THIẾT LẬP"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

@@ -417,7 +417,7 @@ msgstr "CINEMA EX"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "TV GUIDE"
+msgstr "NEXT AIRED GUIDE"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1604,7 +1604,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "Next Episode"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "TV Shows on this day"
 
@@ -2025,6 +2025,10 @@ msgstr "HIDE THE THUMBNAILS BORDERS"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2581,6 +2585,10 @@ msgstr "EMPTY COLLECTION!"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "ADD CONTENT IN OPTION"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

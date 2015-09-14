@@ -428,7 +428,7 @@ msgstr "CINEMA EX"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "PROGRAMME TELE"
+msgstr "PROGRAMME NEXT AIRED"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1615,7 +1615,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "Episode Suivant"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "Séries TV à ce jour"
 
@@ -2036,6 +2036,10 @@ msgstr "CACHER LA VIGNETTE DE BORDURE"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "MONTRER LE BOUTON POUR LE RÉINITIALISER L’ENVIRONNEMENT GRAPHIQUE (TEMPORAIRE)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2592,6 +2596,10 @@ msgstr "COLLECTION VIDE!"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "AJOUTER DU CONTENU EN OPTION"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

@@ -422,7 +422,7 @@ msgstr "CINEMA EX"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "TV GUIDE"
+msgstr "NEXT AIRED GUIDE"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1609,7 +1609,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "Nästa avsnitt"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "TV-Serier den här dagen"
 
@@ -2030,6 +2030,10 @@ msgstr "DÖLJ MINIATYRBILDENS KANTER"
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "VISA KNAPPEN FÖR ATT ÅTERSTÄLLA SKIN (TEMPORÄRT)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2586,6 +2590,10 @@ msgstr "TOM SAMLING"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "LÄGG TILL INNEHÅLL FÖR VALET"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

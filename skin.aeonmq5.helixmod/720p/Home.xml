@@ -1,4 +1,5 @@
 	<!-- Aeon MQ 5 Helix 6.1.0/6.1.2 /6.1.3/6.1.8 -->
+<!-- Isengard 7.1.11 -->
 
 <window id="0">
 	<defaultcontrol always="true">9000</defaultcontrol>
@@ -129,7 +130,7 @@
 					<width>170</width>
 					<height>170</height>
 					<texture diffuse="cdart_diffuse.png" background="true">$VAR[value_videodisc]</texture>
-					<aspectratio align="center" aligny="center">keep</aspectratio>
+					<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 					<visible>Player.HasVideo</visible>
 				</control>
 			</control>

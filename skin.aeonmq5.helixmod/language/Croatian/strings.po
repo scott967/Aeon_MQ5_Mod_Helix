@@ -420,7 +420,7 @@ msgstr "CINEMA EX"
 
 msgctxt "#31067"
 msgid "TV GUIDE"
-msgstr "TV VODIČ"
+msgstr "NEXT AIRED VODIČ"
 
 msgctxt "#31068"
 msgid "VIEWTYPES"
@@ -1607,7 +1607,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr "Sljedeća epizoda"
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr "Današnje TV serije"
 
@@ -2028,6 +2028,10 @@ msgstr "SAKRI RUBOVE MINIJATURA "
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr "PRIKAŽI TIPKU ZA POČETNU POSTAVKU IZGLEDA (PRIVREMENO)"
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2584,6 +2588,10 @@ msgstr "PRAZNA KOLEKCIJA!"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr "DODAJ SADRŽAJ U OPCIJE"
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"

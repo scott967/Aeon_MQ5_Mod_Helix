@@ -1605,7 +1605,7 @@ msgctxt "#31347"
 msgid "Next Episode"
 msgstr ""
 
-msgctxt "#31448"
+msgctxt "#31348"
 msgid "TV Shows at this day"
 msgstr ""
 
@@ -2026,6 +2026,10 @@ msgstr ""
 msgctxt "#31447"
 msgid "SHOW BUTTON FOR RESET SKIN (TEMPORARY)"
 msgstr ""
+
+msgctxt "#31448"
+msgid "MID LIST"
+msgstr "MID LIST"
 
 msgctxt "#31449"
 msgid "SOLO MODE"
@@ -2582,6 +2586,10 @@ msgstr "PRÁZDNA KOLEKCIA"
 msgctxt "#31587"
 msgid "ADD CONTENT IN OPTION"
 msgstr ""
+
+msgctxt "#31588"
+msgid "USE DISC FOR TV SHOWS/SEASONS"
+msgstr "USE DISC FOR TV SHOWS/SEASONS"
 
 msgctxt "#31589"
 msgid "SEASON"
