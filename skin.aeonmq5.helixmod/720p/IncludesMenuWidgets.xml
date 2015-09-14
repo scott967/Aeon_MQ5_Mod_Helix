@@ -2286,6 +2286,7 @@
 						<property name="Year">$INFO[Window(0).Property(RecommendedMusicVideo.11.Year)]</property>
 						<property name="File">$INFO[Window(0).Property(RecommendedMusicVideo.11.File)]</property>
 						<property name="Codec">$INFO[Window(0).Property(RecommendedMusicVideo.11.VideoCodec)]</property>
+						<property name="Percent">$INFO[Window(0).Property(RecommendedMovie.1.PercentPlayed)]</property>
 						<property name="Progress">$INFO[skin.string(mfconcerts_list)]</property>
 						<onclick>$INFO[Window(0).Property(RecommendedMusicVideo.11.Play)]</onclick>
 						<visible>!IsEmpty(Window(0).Property(RecommendedMusicVideo.11.Title)) + SubString(skin.string(widgetsnumber),12)</visible>
@@ -2301,6 +2302,7 @@
 						<property name="Year">$INFO[Window(0).Property(RecommendedMusicVideo.12.Year)]</property>
 						<property name="File">$INFO[Window(0).Property(RecommendedMusicVideo.12.File)]</property>
 						<property name="Codec">$INFO[Window(0).Property(RecommendedMusicVideo.12.VideoCodec)]</property>
+						<property name="Percent">$INFO[Window(0).Property(RecommendedMovie.1.PercentPlayed)]</property>
 						<property name="Progress">$INFO[skin.string(mfconcerts_list)]</property>
 						<onclick>$INFO[Window(0).Property(RecommendedMusicVideo.12.Play)]</onclick>
 						<visible>!IsEmpty(Window(0).Property(RecommendedMusicVideo.12.Title)) + SubString(skin.string(widgetsnumber),12)</visible>

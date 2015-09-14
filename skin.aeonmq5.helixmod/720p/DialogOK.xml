@@ -1,6 +1,7 @@
 	<!-- Aeon MQ 5 -->
 
 	<window id="2002">
+	<zorder>3</zorder>
 	<defaultcontrol>10</defaultcontrol>
 	<controls>
 	<control type="group">
